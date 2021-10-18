@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="klest"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 12:35:06 "/>
+        <attribute name="created" value="a2xlc3Q7REVTS1RPUC1UMTJTSjNWOzIwMjEtMTAtMTI7IjEyOjI2OjQ2ICI7Mjc5Mg=="/>
+        <attribute name="edited" value="a2xlc3Q7REVTS1RPUC1UMTJTSjNWOzIwMjEtMTAtMTI7IjEyOjM1OjA2ICI7MTsyODk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numeroCartao" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numeroCartao"/>
+                    <output expression="&quot;Compra realizada com sucesso!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A compra poder&#225; ser realizada somente com cart&#227;o de cr&#233;dito!&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Obrigado por escolher nossa loja.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

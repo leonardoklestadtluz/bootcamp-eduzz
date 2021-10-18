@@ -1,0 +1,3 @@
+** Boas-vindas ao Bootcamp Eduzz Javascript Fullstack
+
+Este curso é para que você conheça mais sobre a Eduzz, uma empresa que almeja ser parte do seu crescimento pessoal e profissional, utilizando da tecnologia para gerar oportunidades e criar histórias de sucesso! Vamos responder dúvidas sobre o bootcamp, o processo seletivo e as vagas disponíveis.

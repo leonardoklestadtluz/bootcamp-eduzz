@@ -1,0 +1,3 @@
+** Projetos ágeis com SCRUM
+
+SCRUM é um framework utilizado no gerenciamento ágil de projetos de software. Este curso ensinará os fundamentos e práticas da metodologia.
