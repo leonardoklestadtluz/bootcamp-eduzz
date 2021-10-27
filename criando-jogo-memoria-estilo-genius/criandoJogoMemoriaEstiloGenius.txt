@@ -1,0 +1,3 @@
+** Criando Jogo de Memória Estilo Genius
+
+Nesse projeto, o desafio será criar um jogo Gênisis utilizando apenas HTML, CSS e Javascriptde forma introdutória, sendo o principal conceito, CSS Grid, manipulação de array e arrow functions.
