@@ -1,0 +1,3 @@
+** Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
+
+Explore na prática o TypeScript, uma das linguagens de front-end mais robustas e recomendadas na atualizade. Para isso, o expert apresenta uma série de exemplos praticos que abordam as principais estruturas da linguagem: Classes, Tipos e Interfaces.
