@@ -1,0 +1,3 @@
+** Trabalhando com Componentes em React
+
+Aprenda sobre a estrutura e o cilo de vida dos componentes React, uma das principais tecnologias de desenvolvimento WEB da atualidade. Nesse contexto, a expert eplora conceitos chave como o Single Page Application (SPA), modularização e, principalmente, boas práticas relacionadas a compónentes React.
