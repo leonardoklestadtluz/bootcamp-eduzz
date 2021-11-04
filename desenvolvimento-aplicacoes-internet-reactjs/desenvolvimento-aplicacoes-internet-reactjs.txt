@@ -1,0 +1,3 @@
+** Desenvolvimento de aplicações para internet com ReactJS
+
+Você aprenderá conceitos avançados sobre a combinação de Redux com React e sua aplicação.
