@@ -1,0 +1,3 @@
+** Praticas avançadas em projetos com ReactJS
+
+Conclua seu conhecimento de ReactJS com técnicas avançadas para desenvolver e otimizar o tempo dos projetos. Seja um desenvolvedor front-end de alta performance!
