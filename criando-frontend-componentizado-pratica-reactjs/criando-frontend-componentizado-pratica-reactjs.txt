@@ -1,0 +1,3 @@
+** Criando um front-end totalmente componetizado na prática com RectJS
+
+Agora é a sua hora! Crie uma solução com React que explore os conceitos apresentados neste Desafio de Projetos. Para isso, você pode reproduzir a aplicação criada pelo expert ou, caso se sita preparado, desenvolver algo do zero. Dica: você pode dar um "fork" no repositório disponibilizado pelo expert para organizar melhor as suas alteraç~eos e evoluções, mantendo sua referência direta ao código original.
