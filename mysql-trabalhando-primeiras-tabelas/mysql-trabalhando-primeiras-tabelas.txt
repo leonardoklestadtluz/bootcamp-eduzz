@@ -1,0 +1,3 @@
+** MySql - Trabalhando com as suas primeiras tabelas
+
+Crie suas primeiras tabelas no ambiente MySQL e aprenda a gerenciar a relação entre elas.
