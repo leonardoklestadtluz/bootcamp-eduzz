@@ -1,0 +1,3 @@
+** Introdução ao MongoDB e Banco de Dados NoSQL
+
+Neste curso você terá uma introdução aos bancoS NoSQL no qual iremos apresenta o que é um banco não relacional, seus tipos, assim como realizar operações em cada um dos tipos. Por fim, você será apresentado ao MongoDB.
