@@ -1,0 +1,31 @@
+-- BANCO DE DADOS REDIS
+
+-- inserir dados
+SET userl:name "Bob Esponja"
+SET user '{"name": "Patrick","age": 31}'
+SET user2:name "Lula Molusco" EX 10
+
+-- consultar registros
+GET userl:name
+EXISTS user1:name
+
+-- inserir dados em listas
+LPUSH user1:hobbies "Caça agua-viva"
+
+-- consutar registros 
+LINDEX user1:hobbies 0
+LRANGE user1:hobbies 0 1
+LRANGE user1:hobbies 0 0
+
+-- verificar tipo
+TYPE user1:name
+
+-- verificar tempo de expiração
+TTL user1:name -- em segundos
+PTTL user1:name -- em milisegundos
+
+-- remover tempo de expiração
+PERSIST user2:name
+
+-- deletar registros
+DEL user2:name

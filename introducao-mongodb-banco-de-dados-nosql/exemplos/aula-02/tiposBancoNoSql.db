@@ -1,0 +1,29 @@
+-- BANCO DE DADOS neo4j
+
+-- criar nós
+CREATE (:Cliente {name : "Bob Espoja", age: 28, hobbies: ['Caçar agua-viva, Comer hamburgueres']})
+
+-- consultar nós
+MATCH (bob_esponja) RETURN bob_esponja;
+MATCH (todos) RETURN todos;
+
+MATCH (bob:Client {name: "Bob Esponja"}), (patrick:Client {name: "Patrick"}) CREATE (bob)-[:Amigo]->(patrick);
+
+
+-- criar relacionamentos entre nós
+CREATE (:Cliente {name: "Lula Molusco", age: 30, hobbies: ['Tocar calrinete']}) -[:Bloqueado]->(:Cliente {name: "Patrik", hobbies: ['Caçar agua-viva']})
+
+-- criar objetos
+CREATE (:Object)
+
+-- deletar relacionamentos
+MATCH (lula:Client {name: 'Lula Molusco'})-[relaciona:Bloqueado]->() DELETE relaciona
+
+-- deletar nós
+MATCH (lula:Client {name:"Lula Molusco"}) DELETE lula;
+
+--alterar nós
+MATCH (patrick:Client {name: "Patrick"}) SET patrick.hobbies = ["Caçar agua-viva"];
+
+-- alterar label
+MATCH(patrick:Client {name: "Patrick"}) SET patrick:Cliente_Premium;

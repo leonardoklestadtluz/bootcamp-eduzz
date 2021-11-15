@@ -1,0 +1,31 @@
+-- BANCO DE DADOS Cassndra
+
+-- criar base de dados
+CREATE KEYSPACE fenda_biquini WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+
+-- usar base de dados
+use fenda_biquini;
+
+-- criar colunas
+create columnfamily CLIENTS (name TEXT PRIMARY KEY, age int);
+
+-- selecionar registros
+SELECT * FROM clients;
+SELECT * FROM clients WHERE name = 'BobEsponja';
+SELECT JSON * FROM clients;
+
+-- inserir registros
+INSERT INTO clients (name, age) VALUES ('Bob Esponja', 38);
+INSERT INTO JSON ("name", "Patrick");
+
+-- seleciona informações da colunas
+SELECT age, WRITETIME(AGE) from clients;
+
+-- atualizar registros
+UPDATE clients SET age=33 WHERE name 'Patrick';
+
+-- alterar colunas
+ALTER COLUMNFAMILY clients ADD hobby text;
+
+-- deletar registros
+DELETE FROM clients WHERE name='Bob Esponja';
