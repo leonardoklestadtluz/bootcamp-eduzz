@@ -1,0 +1,3 @@
+** Introdução ao NodeJs com JavaScript
+
+Dê os seus primeiros passos com NodeJs, conhecendo so conceitos e características dessa tecnologia com JavaScript. Além disso aplique os temas abordados em um projeto prático, criando um servidor simples para recuperar informações de hardware, como o uso de memória RAM.
