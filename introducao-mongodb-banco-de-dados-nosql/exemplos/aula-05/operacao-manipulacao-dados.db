@@ -1,0 +1,16 @@
+-- mongoDB
+
+-- listar databases
+show databases;
+
+-- criar databases
+use fenda_biquini;
+
+-- criar collections
+switched to db fenda_biquini;
+
+-- listar collections
+show collections;
+
+-- inserir documento
+deb.test.insertOne({"nome": "Teste 1"})
