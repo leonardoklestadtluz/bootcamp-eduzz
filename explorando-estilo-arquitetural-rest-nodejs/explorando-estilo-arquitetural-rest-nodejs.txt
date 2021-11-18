@@ -1,0 +1,3 @@
+** Explorando o Estilo Arquitetural REST com Node.JS
+
+Conehça o estilo arquitetural mais utilizado na atualizade e entenda todas as nuances do REST. Nesse contextom esplore na prática todo o potencial semântico do protocolo HTTP com Node.JS. Para isso o expert utiliza a biblioteca Express para abstrair o gerenciament de rotas.
