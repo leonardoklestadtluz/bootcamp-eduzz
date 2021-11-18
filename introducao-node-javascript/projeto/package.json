@@ -1,0 +1,12 @@
+{
+  "name": "pcramusage",
+  "version": "1.0.0",
+  "description": "Gerenciamento de memória RAM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["memory ram usage"],
+  "author": "Leonardo Klestadt Luz",
+  "license": "ISC"
+}
