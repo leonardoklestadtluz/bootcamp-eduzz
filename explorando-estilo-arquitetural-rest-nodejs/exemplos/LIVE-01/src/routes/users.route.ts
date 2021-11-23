@@ -37,6 +37,4 @@ usersRoute.delete('/users/:uuid', (req: Request<{ uuid: string }>, res: Response
     res.sendStatus(StatusCodes.OK);
 });
 
-
-
 export default usersRoute;
