@@ -1,0 +1,3 @@
+** Microsserviços e Integrações com Node.js
+
+Refine seus conhecimentos sobre microsserviçosm com foco no dimensionamento de domínios. Para isso, o expert cria uma integração entre APIs, com a intenção de explorar adequadamente os domínios e responsabilidades de cada uma delas.
