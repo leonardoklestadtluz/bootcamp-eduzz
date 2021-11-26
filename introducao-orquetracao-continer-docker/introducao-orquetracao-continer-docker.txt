@@ -1,0 +1,3 @@
+** Introdução a orquetr~ção de containers com Docker
+
+Nesse curso aprenderemos sobre Docker, um projeto OpenSource que facilita a criação de ambientesisolados com container.

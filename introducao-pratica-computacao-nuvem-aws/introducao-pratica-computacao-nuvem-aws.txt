@@ -1,0 +1,3 @@
+** Introdução prática a computação em nuvem usando AWS
+
+Potencialize suas soluões usando a Amazon Amazon Web Services (AWS), uma das pataformas de computação em nuvem mais relevantes do mercado. Nesse contexto, o expert explora os conceitos de API Gateway, Servless e NoSQL na prática, por meio de serviços totalmente gerenciados na AWS.
